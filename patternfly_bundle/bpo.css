@@ -1,0 +1,191 @@
+nav.navbar {
+  margin-bottom: 0px;
+}
+
+h1.section-heading {
+  margin-bottom: 20px;
+}
+
+
+.build-progress li a {
+  margin-right: 23px;
+  height: 70px;
+}
+.build-progress li:nth-child(even) a:before {
+  border-left-color: transparent;
+}
+
+
+.build-progress li:first-child a {
+  padding-left: 15px;
+}
+.build-progress li:first-child a:before {
+  border: none;
+}
+.build-progress li:last-child a {
+  padding-right: 15px;
+  margin-right: 0px;
+}
+.build-progress li:last-child a:after {
+  border: none;
+}
+
+
+
+.build-progress li a:before, .build-progress li a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  border: 0 solid;
+  border-width: 35px 10px;
+  width: 0;
+  height: 0;
+}
+
+
+.build-progress li a:before {
+  left: -20px;
+  border-left-color: transparent;
+}
+.build-progress li a:after {
+  left: 100%;
+  border-color: transparent;
+}
+
+
+
+.build-progress li.pending a {
+  background-color: #302cd2;
+  color: white;
+}
+.build-progress li.pending a:before {
+  border-color: #302cd2;
+  border-left-color: transparent;
+}
+.build-progress li.pending a:after {
+  border-left-color: #302cd2;
+}
+
+.build-progress li.pending a:hover {
+  background-color: #2623a5;
+}
+.build-progress li.pending a:hover:before {
+  border-color: #2623a5;
+  border-left-color: transparent;
+}
+.build-progress li.pending a:hover:after {
+  border-left-color: #2623a5;
+}
+
+.text-color-pending {
+  color: #302cd2;
+}
+
+
+.build-progress li.shadow a {
+  background-color: #eee;
+  color: #555;
+}
+.build-progress li.shadow a:before {
+  border-color: #eee;
+  border-left-color: transparent;
+}
+.build-progress li.shadow a:after {
+  border-left-color: #eee;
+}
+
+.build-progress li.shadow a:hover {
+  background-color: #ddd;
+}
+.build-progress li.shadow a:hover:before {
+  border-color: #ddd;
+  border-left-color: transparent;
+}
+.build-progress li.shadow a:hover:after {
+  border-left-color: #ddd;
+}
+
+
+.build-progress li.running a {
+  background-color: #ec7a08;
+  color: white;
+}
+.build-progress li.running a:before {
+  border-color: #ec7a08;
+  border-left-color: transparent;
+}
+.build-progress li.running a:after {
+  border-left-color: #ec7a08;
+}
+
+.build-progress li.running a:hover {
+  background-color: #c96807;
+}
+.build-progress li.running a:hover:before {
+  border-color: #c96807;
+  border-left-color: transparent;
+}
+.build-progress li.running a:hover:after {
+  border-left-color: #c96807;
+}
+
+.text-color-running {
+  color: #ec7a08;
+}
+
+
+.build-progress li.succeeded a {
+  background-color: #3f9c35;
+  color: white;
+}
+.build-progress li.succeeded a:before {
+  border-color: #3f9c35;
+  border-left-color: transparent;
+}
+.build-progress li.succeeded a:after {
+  border-left-color: #3f9c35;
+}
+
+.build-progress li.succeeded a:hover {
+  background-color: #327b2a;
+}
+.build-progress li.succeeded a:hover:before {
+  border-color: #327b2a;
+  border-left-color: transparent;
+}
+.build-progress li.succeeded a:hover:after {
+  border-left-color: #327b2a;
+}
+
+.text-color-succeeded {
+  color: #3f9c35;
+}
+
+
+.build-progress li.failed a {
+  background-color: #c00;
+  color: white;
+}
+.build-progress li.failed a:before {
+  border-color: #c00;
+  border-left-color: transparent;
+}
+.build-progress li.failed a:after {
+  border-left-color: #c00;
+}
+
+.build-progress li.failed a:hover {
+  background-color: #a80000;
+}
+.build-progress li.failed a:hover:before {
+  border-color: #a80000;
+  border-left-color: transparent;
+}
+.build-progress li.failed a:hover:after {
+  border-left-color: #a80000;
+}
+
+.text-color-failed {
+  color: #c00;
+}
+

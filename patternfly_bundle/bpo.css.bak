@@ -1,0 +1,122 @@
+nav.navbar {
+  margin-bottom: 0px;
+}
+
+h1.section-heading {
+  margin-bottom: 20px;
+}
+
+
+.build-progress li a {
+  margin-right: 23px;
+}
+.build-progress li:nth-child(even) a:before {
+  border-left-color: transparent;
+}
+
+
+.build-progress li:first-child a {
+  padding-left: 15px;
+}
+.build-progress li:first-child a:before {
+  border: none;
+}
+.build-progress li:last-child a {
+  padding-right: 15px;
+}
+.build-progress li:last-child a:after {
+  border: none;
+}
+
+
+
+.build-progress li a:before, .build-progress li a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  border: 0 solid;
+  border-width: 20px 10px;
+  width: 0;
+  height: 0;
+}
+
+
+.build-progress li a:before {
+  left: -20px;
+  border-left-color: transparent;
+}
+.build-progress li a:after {
+  left: 100%;
+  border-color: transparent;
+}
+
+
+.build-progress li.active a {
+  background-color: #39a5dc;
+}
+.build-progress li.active a:before {
+  border-color: #39a5dc;
+  border-left-color: transparent;
+}
+.build-progress li.active a:after {
+  border-left-color: #39a5dc;
+}
+
+.build-progress li.active a:hover {
+  background-color: #0088ce;
+}
+.build-progress li.active a:hover:before {
+  border-color: #0088ce;
+  border-left-color: transparent;
+}
+.build-progress li.active a:hover:after {
+  border-left-color: #0088ce;
+}
+
+
+.build-progress li.shadow a {
+  background-color: #eee;
+}
+.build-progress li.shadow a:before {
+  border-color: #eee;
+  border-left-color: transparent;
+}
+.build-progress li.shadow a:after {
+  border-left-color: #eee;
+}
+
+.build-progress li.shadow a:hover {
+  background-color: #ddd;
+}
+.build-progress li.shadow a:hover:before {
+  border-color: #ddd;
+  border-left-color: transparent;
+}
+.build-progress li.shadow a:hover:after {
+  border-left-color: #ddd;
+}
+
+
+.build-progress li.running a {
+  background-color: #ec7a08;
+  color: white;
+}
+.build-progress li.running a:before {
+  border-color: #ec7a08;
+  border-left-color: transparent;
+}
+.build-progress li.running a:after {
+  border-left-color: #ec7a08;
+}
+
+.build-progress li.running a:hover {
+  background-color: #c96807;
+}
+.build-progress li.running a:hover:before {
+  border-color: #c96807;
+  border-left-color: transparent;
+}
+.build-progress li.running a:hover:after {
+  border-left-color: #c96807;
+}
+
